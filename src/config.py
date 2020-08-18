@@ -1,0 +1,6 @@
+DATA_DIR = "../data/animals"
+BATCH_SIZE = 128
+IMAGE_WIDTH = 32
+IMAGE_HEIGHT = 32
+EPOCHS = 40
+DEVICE = "cuda"
