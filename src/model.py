@@ -50,4 +50,4 @@ class SmallNet(nn.Module):
 if __name__ == "__main__":
     model = SmallNet(num_classes=3)
     img = torch.rand((1,3,32,32))
-    x,loss = model(img,torch.rand((1,1)))
+    x,loss = model(img,torch.tensor([1],dtype=torch.long))
